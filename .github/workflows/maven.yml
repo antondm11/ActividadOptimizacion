@@ -28,4 +28,6 @@ jobs:
  
     # Forzamos limpieza y compilación desde cero
     - name: Ejecutar Maven Clean y Test
+      working-directory: backend
       run: mvn clean test
+      
