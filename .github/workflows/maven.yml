@@ -30,7 +30,6 @@ jobs:
 
       # Forzamos limpieza y compilación desde cero
       - name: Ejecutar Maven Clean y Test
-        working-directory: ActividadOptimizacion
         run: mvn clean test
         
 
